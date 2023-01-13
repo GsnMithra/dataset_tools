@@ -1,7 +1,10 @@
 import os
 
-path_train = '/Volumes/Expansion/Deep Learning/dataset_tools/data_set/images/train'
-path_val = '/Volumes/Expansion/Deep Learning/dataset_tools/data_set/images/val'
+# make sure you have the total path directory
+# to your dataset and uncomment the below lines. 
+
+# path_train = '<data_set/images/train>'
+# path_val = '<data_set/images/val>'
 
 listing_train = os.listdir (path_train)
 listing_val = os.listdir (path_val)
